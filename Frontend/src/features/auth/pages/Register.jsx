@@ -1,5 +1,6 @@
 ﻿import React, { useState } from 'react'
 import { Link } from 'react-router'
+import { register } from '../service/auth.api'
 
 const Register = () => {
   const [username, setUsername] = useState('')
@@ -96,4 +97,3 @@ const Register = () => {
 }
 
 export default Register
-

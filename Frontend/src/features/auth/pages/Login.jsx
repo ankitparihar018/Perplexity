@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router'
 import { useAuth } from '../hook/useAuth'
 import { useSelector } from 'react-redux'
 import { Navigate } from 'react-router'
-
+import { login } from '../service/auth.api'
 
 const Login = () => {
     const [ email, setEmail ] = useState('')
